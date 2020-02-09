@@ -1,7 +1,6 @@
 #navContainer{
   border: 3px solid;
   background-color: black;
-
 }
 
 #leftSide{
@@ -18,7 +17,6 @@
   width: 200px;
 }
 
-
 li{
   list-style: none;
 }
@@ -31,4 +29,18 @@ li{
 .navRight{
   margin-left: 15px;
   color: white;
+}
+
+#subNavContainer{
+  font-size: 25px;
+  text-transform: uppercase;
+  display: block;
+  border: 3px solid;
+}
+
+.subContainer{
+  display: inline-block;
+  opacity: 60%;
+  margin-left: 5px;
+  padding-right: 15px;
 }
