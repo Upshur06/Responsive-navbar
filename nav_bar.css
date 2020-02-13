@@ -49,3 +49,43 @@ li{
   padding-right: 15px;
   letter-spacing: 4px;
 }
+
+li:hover{
+  opacity: 100%;
+}
+
+
+/* @media all (max-width 900px) {
+  #navContainer{
+    width: 1000px;
+  }
+  #leftSide{
+    width: 400px;
+  }
+  #rightSide{
+    width: 400px;
+  }
+  .subContainer{
+    width: 800px;
+  }
+
+}
+
+@media all (max-width 900px) {
+  #navContainer{
+    width: 100%;
+  }
+  #leftSide{
+    width: 100%;
+  }
+  #rightSide{
+    width: 100%;
+  }
+  .subContainer{
+    width: 100%;
+  }
+  li{
+    width: 100%;
+  } */
+
+}
