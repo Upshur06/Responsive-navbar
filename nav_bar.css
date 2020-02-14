@@ -1,21 +1,18 @@
+#container{
+  width: 977px;
+  margin: 0px auto;
+}
+
 #navContainer{
   border: 3px solid;
+  width: 971px;
   background-color: black;
 }
 
-#leftSide{
-  border: 1px solid red;
-  display: inline-flex;
-  width: 400px;
-  padding-left: 5px;
+#list{
+  opacity: 60%;
 }
 
-#rightSide{
-  border: 1px solid blue;
-  display: inline-flex;
-  float: right;
-  width: 200px;
-}
 
 li{
   list-style: none;
@@ -26,6 +23,7 @@ li{
     color: white;
     opacity: 65%;
     letter-spacing: 2px;
+    display: inline;
 }
 
 .navRight{
@@ -33,9 +31,17 @@ li{
   color: white;
   opacity: 65%;
   letter-spacing: 2px;
+  display: inline;
+  text-align: right;
+}
+
+span{
+  float: right;
+  margin-right: 40px;
 }
 
 #subNavContainer{
+  width: 971px;
   font-size: 25px;
   text-transform: uppercase;
   display: block;
@@ -52,40 +58,59 @@ li{
 
 li:hover{
   opacity: 100%;
+  text-decoration: underline;
 }
 
-
-/* @media all (max-width 900px) {
-  #navContainer{
-    width: 1000px;
+@media screen and (max-width: 976px){
+  #container{
+    width: 100%;
   }
-  #leftSide{
-    width: 400px;
-  }
-  #rightSide{
-    width: 400px;
-  }
-  .subContainer{
-    width: 800px;
-  }
-
-}
-
-@media all (max-width 900px) {
   #navContainer{
     width: 100%;
   }
-  #leftSide{
+  #navSpot{
     width: 100%;
   }
-  #rightSide{
+  #list{
     width: 100%;
   }
-  .subContainer{
+  #subNavContainer{
     width: 100%;
   }
-  li{
-    width: 100%;
-  } */
+  span{
+    margin-right: 80px;
 
+  }
+}
+
+@media screen and (max-width: 600px){
+  #container{
+    width: 100%;
+  }
+  #navContainer{
+    width: 100%;
+  }
+  #navSpot{
+    width: 100%;
+  }
+  #list{
+    width: 100%;
+  }
+  #subNavContainer{
+    width: 100%;
+  }
+  .navLeft{
+    display: block;
+  }
+  .navRight{
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+  }
+  span{
+    float: none;
+  }
+  #subNavContainer{
+    width: 100%;
+  }
 }
