@@ -79,7 +79,6 @@ li:hover{
   }
   span{
     margin-right: 80px;
-
   }
 }
 
@@ -113,4 +112,19 @@ li:hover{
   #subNavContainer{
     width: 100%;
   }
+  .subContainer{
+    width: 70%;
+  }
 }
+
+@media screen and (max-width: 350px){
+  #container{
+    width: 350px;
+  }
+  #navContainer{
+    width: 350px;
+  }
+  #navSpot{
+    width: 350px;
+  }
+)
